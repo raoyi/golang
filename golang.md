@@ -4,10 +4,11 @@
 <a href="#3">golang.org/x/中的包无法下载问题</a><br />
 <a href="#4">exec: "gcc": executable file not found in %PATH%报错</a><br />
 <a href="#5">rsrc（walk GUI依赖包）</a><br />
-<a name="#6">包的概念</a><br />
+<a href="#6">包的概念</a><br />
 <a href="#7">代码包导入</a><br />
 <a href="#8">代码格式化（go fmt 和 gofmt）</a>
 
+## 笔记条目
 ### <a name="1">1. GOROOT、GOPATH、GOBIN 目录</a>
 
 使用 `go env` 命令查看相关系统变量
@@ -52,6 +53,10 @@ rsrc -manifest xxxx.manifest -o rsrc.syso
 会生成 `rsrc.syso` 文件
 
 ### <a name="6">6. 包的概念</a>
+
+包是结构化代码的一种方式：每个程序都由包（通常简称为 pkg）的概念组成，可以使用自身的包或者从其它包中导入内容。
+
+如同其它一些编程语言中的类库或命名空间的概念，每个go文件都属于且仅属于一个包。一个包可以由许多以 .go 为扩展名的源文件组成，因此文件名和包名一般来说都是不相同的。
 
 ### <a name="7">7. 代码包导入</a>
 
