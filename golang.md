@@ -1,4 +1,4 @@
-<a href="#1">GOROOT GOPATH GOBIN 目录</a><br />
+<a href="#1">GOROOT、GOPATH、GOBIN 目录</a><br />
 <a href="#2">get GitHub中的包</a><br />
 <a href="#3">golang.org/x/中的包无法下载问题</a><br />
 <a href="#4">exec: "gcc": executable file not found in %PATH%报错</a><br />
@@ -6,7 +6,7 @@
 <a href="#6">代码包导入</a><br />
 <a href="#7">代码格式化（go fmt 和 gofmt）</a>
 
-### <a name="1">GOROOT GOPATH GOBIN 目录</a>
+### <a name="1">GOROOT、GOPATH、GOBIN 目录</a>
 
 使用 `go env` 命令查看相关系统变量
 
