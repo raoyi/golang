@@ -2,6 +2,8 @@
 
 本书源码仓库：https://github.com/adonovan/gopl.io
 
+错误及问题反馈：https://github.com/raoyi/golang/issues
+
 ## 第一章 入门
 
 ### 1.1 hello, world（ https://github.com/adonovan/gopl.io/tree/master/ch1/helloworld ）
