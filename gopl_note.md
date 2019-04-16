@@ -4,7 +4,7 @@
 
 ## 第一章 入门
 
-### 1.1 hello, world（https://github.com/adonovan/gopl.io/tree/master/ch1/helloworld）
+### 1.1 hello, world（ https://github.com/adonovan/gopl.io/tree/master/ch1/helloworld ）
 
 1. `go run helloworld.go` 直接输出结果
 
@@ -83,7 +83,7 @@
 
 7. 唯一的循环语句：`for`
 
-    **形式1**：（https://github.com/adonovan/gopl.io/tree/master/ch1/echo1）
+    **形式1**：（ https://github.com/adonovan/gopl.io/tree/master/ch1/echo1 ）
 
     ```
     for <初始化语句>; <条件表达式>; post {
@@ -112,8 +112,8 @@
     }
     ```
 
-    **形式2**：在字符串或slice数据上迭代（https://github.com/adonovan/gopl.io/tree/master/ch1/echo2）
+    **形式2**：在字符串或slice数据上迭代（ https://github.com/adonovan/gopl.io/tree/master/ch1/echo2 ）
 
-8. sring包中的Join函数（https://github.com/adonovan/gopl.io/tree/master/ch1/echo3）
+8. sring包中的Join函数（ https://github.com/adonovan/gopl.io/tree/master/ch1/echo3 ）
 
     比较 `fmt.Println(string.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
