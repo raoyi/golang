@@ -2,9 +2,9 @@
 
 本书源码仓库：https://github.com/adonovan/gopl.io
 
-## 第一章
+## 第一章 入门
 
-### 1.1 hello, world
+### 1.1 hello, world（https://github.com/adonovan/gopl.io/tree/master/ch1/helloworld）
 
 1. `go run helloworld.go` 直接输出结果
 
@@ -83,7 +83,7 @@
 
 7. 唯一的循环语句：`for`
 
-    形式1：（https://github.com/adonovan/gopl.io/tree/master/ch1/echo1）
+    **形式1**：（https://github.com/adonovan/gopl.io/tree/master/ch1/echo1）
 
     ```
     for <初始化语句>; <条件表达式>; post {
@@ -98,7 +98,7 @@
     **post语句**：循环体之后被执行，然后条件被再次验证
 
     - 三个部分都可省略
-    - 如果没有初始化语句和post语句，分号可省略，此时类似于传统的while循环
+    - 如果没有 `初始化语句` 和 `post语句`，分号可省略，此时类似于传统的while循环
     ```
     for condition {
       //...
@@ -112,8 +112,8 @@
     }
     ```
 
-    形式2：在字符串或slice数据上迭代（https://github.com/adonovan/gopl.io/tree/master/ch1/echo2）
+    **形式2**：在字符串或slice数据上迭代（https://github.com/adonovan/gopl.io/tree/master/ch1/echo2）
 
-8. sring包中的Join函数
+8. sring包中的Join函数（https://github.com/adonovan/gopl.io/tree/master/ch1/echo3）
 
     比较 `fmt.Println(string.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
