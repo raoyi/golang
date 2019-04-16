@@ -115,4 +115,4 @@
 
 8. sring包中的Join函数
 
-  比较 `fmt.Println(string.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
+    比较 `fmt.Println(string.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
