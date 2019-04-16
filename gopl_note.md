@@ -82,6 +82,7 @@
 6. **空标识符**：名称为_（下划线），空标识符可以用在任何语法需要变量名但程序逻辑不需要的地方
 
 7. 唯一的循环语句：`for`
+
     形式1：（https://github.com/adonovan/gopl.io/tree/master/ch1/echo1）
 
     ```
