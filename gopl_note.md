@@ -119,4 +119,5 @@
 
 8. sring包中的Join函数（ https://github.com/adonovan/gopl.io/tree/master/ch1/echo3 ）
 
-    比较 `fmt.Println(string.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
+    比较 `fmt.Println(strings.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
+    后者返回一个字符串切片，前者返回一个处理后的字符串
