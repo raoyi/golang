@@ -66,9 +66,10 @@
     var name1, name2 string = value1, value2 //类型一致的情况下是冗余的信息
     ```
 
-4. 若 s, sep, os.Args[i] 均为字符串
+4. `+=`及 `*=`
 
     ```
+    //若 s, sep, os.Args[i] 均为字符串
     s += sep + os.Args[i] //等价于
     s = s + sep + os.Args[i]
     //将srp和os.Args[i]追加到旧的s上，并重新赋值给s
