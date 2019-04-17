@@ -2,8 +2,6 @@
 
 本书源码仓库：https://github.com/adonovan/gopl.io
 
-错误及问题反馈：https://github.com/raoyi/golang/issues
-
 ## 第一章 入门
 
 ### 1.1 hello, world（ https://github.com/adonovan/gopl.io/tree/master/ch1/helloworld ）
@@ -58,14 +56,14 @@
 
     **短变量声明**（`:=`）：声明一个或多个变量，并且根据初始化的值给予合适的类型
 
-    声明字符串变量的等价方式：
+    声明变量的等价方式：
 
     ```
-    //通常应该使用前两种，第一种表明变量重要；第二种表明变量不重要
-    s := "" //通常在函数内部使用，不是个包级别的变量
-    var s string  //依赖于默认初始化为空字符串的""
-    var s = ""  //多用于声明多个变量
-    var s string = "" //类型一致的情况下是冗余的信息
+    //通常应该使用前两种，第一种（隐式初始化）表明变量不重要；第二种（显式初始化）表明变量重要性
+    name1, name2 := value1, value2  //通常在函数内部使用，不是个包级别的变量，根据值推断类型
+    var name1, name2 string   //依赖于默认初始化为空值
+    var name1, name2 = value1, value2  //多用于声明多个变量
+    var name1, name2 string = value1, value2 //类型一致的情况下是冗余的信息
     ```
 
 4. 若 s, sep, os.Args[i] 均为字符串
