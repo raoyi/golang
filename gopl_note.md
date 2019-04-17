@@ -121,4 +121,4 @@
 
     比较 `fmt.Println(strings.Join(os.Args[1:], " "))` 和  `fmt.Println(os.Args[1:])` 的区别
     
-    后者返回一个字符串切片，前者返回一个处理后的字符串
+    后者返回一个字符串slice，前者返回一个处理后的字符串
