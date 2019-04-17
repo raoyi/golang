@@ -1,4 +1,4 @@
-# 《Go程序设计语言》笔记
+# 《Go程序设计语言》笔记 [![GitHub](https://img.shields.io/github/license/raoyi/golang.svg)](https://github.com/raoyi/golang/blob/master/LICENSE)
 
 本书源码仓库：https://github.com/adonovan/gopl.io
 
